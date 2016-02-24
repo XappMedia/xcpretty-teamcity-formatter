@@ -1,0 +1,774 @@
+Build settings from command line:
+    SDKROOT = iphonesimulator9.2
+
+Build settings from configuration file 'Configurations/XAPP-Test.xcconfig':
+    COPY_PHASE_STRIP = YES
+    DEAD_CODE_STRIPPING = YES
+    FRAMEWORK_SEARCH_PATHS = $(inherited)
+    GCC_DEBUGGING_SYMBOLS = NO
+    GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+    GCC_GENERATE_TEST_COVERAGE_FILES = YES
+    GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES
+    GCC_OPTIMIZATION_LEVEL = s
+    GCC_SYMBOLS_PRIVATE_EXTERN = NO
+    LIBRARY_SEARCH_PATHS = $(inherited)
+    OTHER_CFLAGS = $(inherited) -fembed-bitcode -DAFHTTPRequestOperation=XAAFHTTPRequestOperation -DAFURLSessionManager=XAAFURLSessionManager -DAFURLRequestSerialization=XAAFURLRequestSerialization -DAFURLConnectionOperation=XAAFURLConnectionOperation -DAFHTTPRequestOperationManager=XAAFHTTPRequestOperationManager -DAFHTTPSessionManager=XAAFHTTPSessionManager -DAFSecurityPolicy=XAAFSecurityPolicy -DAFNetworkReachabilityManager=XAAFNetworkReachabilityManager -DAFStringFromNetworkReachabilityStatus=XAAFStringFromNetworkReachabilityStatus -DAFNetworkingReachabilityDidChangeNotification=XAAFNetworkingReachabilityDidChangeNotification -DAFNetworkingReachabilityNotificationStatusItem=XAAFNetworkingReachabilityNotificationStatusItem -DAFNetworkingOperationDidStartNotification=XAAFNetworkingOperationDidStartNotification -DAFNetworkingOperationDidFinishNotification=XAAFNetworkingOperationDidFinishNotification -DAFQueryStringPair=XAAFQueryStringPair -DAFQueryStringPairsFromDictionary=XAAFQueryStringPairsFromDictionary -DAFQueryStringPairsFromKeyAndValue=XAAFQueryStringPairsFromKeyAndValue -DAFHTTPRequestSerializer=XAAFHTTPRequestSerializer -DAFStreamingMultipartFormData=XAAFStreamingMultipartFormData -DAFMultipartBodyStream=XAAFMultipartBodyStream -DAFHTTPBodyPart=XAAFHTTPBodyPart -DAFJSONRequestSerializer=XAAFJSONRequestSerializer -DAFPropertyListRequestSerializer=XAAFPropertyListRequestSerializer -DAFURLSessionManagerTaskDelegate=XAAFURLSessionManagerTaskDelegate -DAFNetworkingTaskDidFinishAssetPathKey=XAAFNetworkingTaskDidFinishAssetPathKey -DAFNetworkingTaskDidFinishErrorKey=XAAFNetworkingTaskDidFinishErrorKey -DAFNetworkingTaskDidFinishResponseDataKey=XAAFNetworkingTaskDidFinishResponseDataKey -DAFNetworkingTaskDidFinishResponseSerializerKey=XAAFNetworkingTaskDidFinishResponseSerializerKey -DAFNetworkingTaskDidFinishSerializedResponseKey=XAAFNetworkingTaskDidFinishSerializedResponseKey -DAFNetworkingTaskDidCompleteAssetPathKey=XAAFNetworkingTaskDidCompleteAssetPathKey -DAFNetworkingTaskDidCompleteErrorKey=XAAFNetworkingTaskDidCompleteErrorKey -DAFNetworkingTaskDidCompleteResponseDataKey=XAAFNetworkingTaskDidCompleteResponseDataKey -DAFURLRequestSerializationErrorDomain=XAAFURLRequestSerializationErrorDomain -DAFNetworkingOperationFailingURLRequestErrorKey=XAAFNetworkingOperationFailingURLRequestErrorKey -DkAFUploadStream3GSuggestedPacketSize=kXAAFUploadStream3GSuggestedPacketSize -DkAFUploadStream3GSuggestedDelay=kXAAFUploadStream3GSuggestedDelay -DAFHTTPResponseSerializer=XAAFHTTPResponseSerializer -DAFJSONResponseSerializer=XAAFJSONResponseSerializer -DAFPropertyListResponseSerializer=XAAFPropertyListResponseSerializer -DAFImageResponseSerializer=XAAFImageResponseSerializer -DAFCompoundResponseSerializer=XAAFCompoundResponseSerializer -DAFURLResponseSerializationErrorDomain=XAAFURLResponseSerializationErrorDomain -DAFNetworkingOperationFailingURLResponseErrorKey=XAAFNetworkingOperationFailingURLResponseErrorKey -DAFNetworkingOperationFailingURLResponseDataErrorKey=XAAFNetworkingOperationFailingURLResponseDataErrorKey -DAFXMLParserResponseSerializer=XAAFXMLParserResponseSerializer -DAFNetworkingTaskDidResumeNotification=XAAFNetworkingTaskDidResumeNotification -DAFNetworkingTaskDidCompleteNotification=XAAFNetworkingTaskDidCompleteNotification -DAFNetworkingTaskDidSuspendNotification=XAAFNetworkingTaskDidSuspendNotification -DAFURLSessionDidInvalidateNotification=XAAFURLSessionDidInvalidateNotification -DAFURLSessionDownloadTaskDidFailToMoveFileNotification=XAAFURLSessionDownloadTaskDidFailToMoveFileNotification -DAFNetworkingTaskDidStartNotification=XAAFNetworkingTaskDidStartNotification -DAFNetworkingTaskDidFinishNotification=XAAFNetworkingTaskDidFinishNotification -DAFNetworkingTaskDidCompleteSerializedResponseKey=XAAFNetworkingTaskDidCompleteSerializedResponseKey -DAFNetworkingTaskDidCompleteResponseSerializerKey=XAAFNetworkingTaskDidCompleteResponseSerializerKey -D_AFURLSessionTaskSwizzling=_XAAFURLSessionTaskSwizzling -DXMDateUtil=XAXMDateUtil -DXMDeviceIdentifierAmbiguous=XAXMDeviceIdentifierAmbiguous -DXMDeviceConnectionWWAN=XAXMDeviceConnectionWWAN -DXMDeviceConnectionWiFi=XAXMDeviceConnectionWiFi -DXMDeviceConnectionUnknown=XAXMDeviceConnectionUnknown -DXMDeviceConnectionNone=XAXMDeviceConnectionNone -DXMEvent=XAXMEvent -DXMFileUtil=XAXMFileUtil -DXMFormData=XAXMFormData -DXMStringFormData=XAXMStringFormData -DXMBinaryFormData=XAXMBinaryFormData -DXMHTTPUtil=XAXMHTTPUtil -DXMLogger=XAXMLogger -DXMLoggerFactory=XAXMLoggerFactory -DXMDeviceUtil=XAXMDeviceUtil -DXMReflectionUtil=XAXMReflectionUtil -DReachability=XAReachability -DkReachabilityChangedNotification=kXAReachabilityChangedNotification -DXMSimpleRestClient=XAXMSimpleRestClient -DXMRemoteLogger=XAXMRemoteLogger
+
+=== BUILD TARGET XAPP OF PROJECT XAPP WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+** BUILD SUCCEEDED **
+
+=== BUILD TARGET OCMockLib OF PROJECT OCMock WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET XAPP OF PROJECT XAPP WITH CONFIGURATION Debug ===
+Check dependencies
+
+=== BUILD TARGET Performance Tests OF PROJECT XAPP WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+=== BUILD TARGET Functional Tests OF PROJECT XAPP WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Objects-normal/i386/XAMidRollResourceStrategy_Functional_Test.o Tests/Functional\ Tests/XAMidRollResourceStrategy_Functional_Test.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/user/Development/XAPP-SDK-iOS/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/user/Development/XAPP-SDK-iOS/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -fprofile-arcs -ftest-coverage -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=9.0 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -fprofile-instr-generate -fcoverage-mapping -iquote /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Functional\ Tests-generated-files.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Functional\ Tests-own-target-headers.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Functional\ Tests-all-target-headers.hmap -iquote /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Functional\ Tests-project-headers.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/include -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/DerivedSources/i386 -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/DerivedSources -F/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -fembed-bitcode -DAFHTTPRequestOperation=XAAFHTTPRequestOperation -DAFURLSessionManager=XAAFURLSessionManager -DAFURLRequestSerialization=XAAFURLRequestSerialization -DAFURLConnectionOperation=XAAFURLConnectionOperation -DAFHTTPRequestOperationManager=XAAFHTTPRequestOperationManager -DAFHTTPSessionManager=XAAFHTTPSessionManager -DAFSecurityPolicy=XAAFSecurityPolicy -DAFNetworkReachabilityManager=XAAFNetworkReachabilityManager -DAFStringFromNetworkReachabilityStatus=XAAFStringFromNetworkReachabilityStatus -DAFNetworkingReachabilityDidChangeNotification=XAAFNetworkingReachabilityDidChangeNotification -DAFNetworkingReachabilityNotificationStatusItem=XAAFNetworkingReachabilityNotificationStatusItem -DAFNetworkingOperationDidStartNotification=XAAFNetworkingOperationDidStartNotification -DAFNetworkingOperationDidFinishNotification=XAAFNetworkingOperationDidFinishNotification -DAFQueryStringPair=XAAFQueryStringPair -DAFQueryStringPairsFromDictionary=XAAFQueryStringPairsFromDictionary -DAFQueryStringPairsFromKeyAndValue=XAAFQueryStringPairsFromKeyAndValue -DAFHTTPRequestSerializer=XAAFHTTPRequestSerializer -DAFStreamingMultipartFormData=XAAFStreamingMultipartFormData -DAFMultipartBodyStream=XAAFMultipartBodyStream -DAFHTTPBodyPart=XAAFHTTPBodyPart -DAFJSONRequestSerializer=XAAFJSONRequestSerializer -DAFPropertyListRequestSerializer=XAAFPropertyListRequestSerializer -DAFURLSessionManagerTaskDelegate=XAAFURLSessionManagerTaskDelegate -DAFNetworkingTaskDidFinishAssetPathKey=XAAFNetworkingTaskDidFinishAssetPathKey -DAFNetworkingTaskDidFinishErrorKey=XAAFNetworkingTaskDidFinishErrorKey -DAFNetworkingTaskDidFinishResponseDataKey=XAAFNetworkingTaskDidFinishResponseDataKey -DAFNetworkingTaskDidFinishResponseSerializerKey=XAAFNetworkingTaskDidFinishResponseSerializerKey -DAFNetworkingTaskDidFinishSerializedResponseKey=XAAFNetworkingTaskDidFinishSerializedResponseKey -DAFNetworkingTaskDidCompleteAssetPathKey=XAAFNetworkingTaskDidCompleteAssetPathKey -DAFNetworkingTaskDidCompleteErrorKey=XAAFNetworkingTaskDidCompleteErrorKey -DAFNetworkingTaskDidCompleteResponseDataKey=XAAFNetworkingTaskDidCompleteResponseDataKey -DAFURLRequestSerializationErrorDomain=XAAFURLRequestSerializationErrorDomain -DAFNetworkingOperationFailingURLRequestErrorKey=XAAFNetworkingOperationFailingURLRequestErrorKey -DkAFUploadStream3GSuggestedPacketSize=kXAAFUploadStream3GSuggestedPacketSize -DkAFUploadStream3GSuggestedDelay=kXAAFUploadStream3GSuggestedDelay -DAFHTTPResponseSerializer=XAAFHTTPResponseSerializer -DAFJSONResponseSerializer=XAAFJSONResponseSerializer -DAFPropertyListResponseSerializer=XAAFPropertyListResponseSerializer -DAFImageResponseSerializer=XAAFImageResponseSerializer -DAFCompoundResponseSerializer=XAAFCompoundResponseSerializer -DAFURLResponseSerializationErrorDomain=XAAFURLResponseSerializationErrorDomain -DAFNetworkingOperationFailingURLResponseErrorKey=XAAFNetworkingOperationFailingURLResponseErrorKey -DAFNetworkingOperationFailingURLResponseDataErrorKey=XAAFNetworkingOperationFailingURLResponseDataErrorKey -DAFXMLParserResponseSerializer=XAAFXMLParserResponseSerializer -DAFNetworkingTaskDidResumeNotification=XAAFNetworkingTaskDidResumeNotification -DAFNetworkingTaskDidCompleteNotification=XAAFNetworkingTaskDidCompleteNotification -DAFNetworkingTaskDidSuspendNotification=XAAFNetworkingTaskDidSuspendNotification -DAFURLSessionDidInvalidateNotification=XAAFURLSessionDidInvalidateNotification -DAFURLSessionDownloadTaskDidFailToMoveFileNotification=XAAFURLSessionDownloadTaskDidFailToMoveFileNotification -DAFNetworkingTaskDidStartNotification=XAAFNetworkingTaskDidStartNotification -DAFNetworkingTaskDidFinishNotification=XAAFNetworkingTaskDidFinishNotification -DAFNetworkingTaskDidCompleteSerializedResponseKey=XAAFNetworkingTaskDidCompleteSerializedResponseKey -DAFNetworkingTaskDidCompleteResponseSerializerKey=XAAFNetworkingTaskDidCompleteResponseSerializerKey -D_AFURLSessionTaskSwizzling=_XAAFURLSessionTaskSwizzling -DXMDateUtil=XAXMDateUtil -DXMDeviceIdentifierAmbiguous=XAXMDeviceIdentifierAmbiguous -DXMDeviceConnectionWWAN=XAXMDeviceConnectionWWAN -DXMDeviceConnectionWiFi=XAXMDeviceConnectionWiFi -DXMDeviceConnectionUnknown=XAXMDeviceConnectionUnknown -DXMDeviceConnectionNone=XAXMDeviceConnectionNone -DXMEvent=XAXMEvent -DXMFileUtil=XAXMFileUtil -DXMFormData=XAXMFormData -DXMStringFormData=XAXMStringFormData -DXMBinaryFormData=XAXMBinaryFormData -DXMHTTPUtil=XAXMHTTPUtil -DXMLogger=XAXMLogger -DXMLoggerFactory=XAXMLoggerFactory -DXMDeviceUtil=XAXMDeviceUtil -DXMReflectionUtil=XAXMReflectionUtil -DReachability=XAReachability -DkReachabilityChangedNotification=kXAReachabilityChangedNotification -DXMSimpleRestClient=XAXMSimpleRestClient -DXMRemoteLogger=XAXMRemoteLogger -MMD -MT dependencies -MF /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Objects-normal/i386/XAMidRollResourceStrategy_Functional_Test.d --serialize-diagnostics /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Objects-normal/i386/XAMidRollResourceStrategy_Functional_Test.dia -c /Users/user/Development/XAPP-SDK-iOS/Tests/Functional\ Tests/XAMidRollResourceStrategy_Functional_Test.m -o /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Objects-normal/i386/XAMidRollResourceStrategy_Functional_Test.o
+
+Ld DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Functional\ Tests.xctest/Functional\ Tests normal i386
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export IPHONEOS_DEPLOYMENT_TARGET=9.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/iOS5Example/usr/lib -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/iOS7Example/usr/lib -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/iPhoneExample/Libraries -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/SwiftExamples/usr/lib -F/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -filelist /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Objects-normal/i386/Functional\ Tests.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -mios-simulator-version-min=9.0 -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework XCTest -fobjc-arc -fobjc-link-runtime -fprofile-arcs -ftest-coverage -fprofile-instr-generate /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/libOCMock.a -lXAPP -Xlinker -dependency_info -Xlinker /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Functional\ Tests.build/Objects-normal/i386/Functional\ Tests_dependency_info.dat -o /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Functional\ Tests.xctest/Functional\ Tests
+
+Touch DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Functional\ Tests.xctest
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /usr/bin/touch -c /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Functional\ Tests.xctest
+
+=== BUILD TARGET Unit Tests OF PROJECT XAPP WITH CONFIGURATION Debug ===
+Check dependencies
+
+CompileC DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAActionTest.o Tests/Unit\ Tests/XAActionTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/user/Development/XAPP-SDK-iOS/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/user/Development/XAPP-SDK-iOS/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -fprofile-arcs -ftest-coverage -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=9.0 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -fprofile-instr-generate -fcoverage-mapping -iquote /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-generated-files.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-own-target-headers.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-all-target-headers.hmap -iquote /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-project-headers.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/include -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/DerivedSources/i386 -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/DerivedSources -F/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -fembed-bitcode -DAFHTTPRequestOperation=XAAFHTTPRequestOperation -DAFURLSessionManager=XAAFURLSessionManager -DAFURLRequestSerialization=XAAFURLRequestSerialization -DAFURLConnectionOperation=XAAFURLConnectionOperation -DAFHTTPRequestOperationManager=XAAFHTTPRequestOperationManager -DAFHTTPSessionManager=XAAFHTTPSessionManager -DAFSecurityPolicy=XAAFSecurityPolicy -DAFNetworkReachabilityManager=XAAFNetworkReachabilityManager -DAFStringFromNetworkReachabilityStatus=XAAFStringFromNetworkReachabilityStatus -DAFNetworkingReachabilityDidChangeNotification=XAAFNetworkingReachabilityDidChangeNotification -DAFNetworkingReachabilityNotificationStatusItem=XAAFNetworkingReachabilityNotificationStatusItem -DAFNetworkingOperationDidStartNotification=XAAFNetworkingOperationDidStartNotification -DAFNetworkingOperationDidFinishNotification=XAAFNetworkingOperationDidFinishNotification -DAFQueryStringPair=XAAFQueryStringPair -DAFQueryStringPairsFromDictionary=XAAFQueryStringPairsFromDictionary -DAFQueryStringPairsFromKeyAndValue=XAAFQueryStringPairsFromKeyAndValue -DAFHTTPRequestSerializer=XAAFHTTPRequestSerializer -DAFStreamingMultipartFormData=XAAFStreamingMultipartFormData -DAFMultipartBodyStream=XAAFMultipartBodyStream -DAFHTTPBodyPart=XAAFHTTPBodyPart -DAFJSONRequestSerializer=XAAFJSONRequestSerializer -DAFPropertyListRequestSerializer=XAAFPropertyListRequestSerializer -DAFURLSessionManagerTaskDelegate=XAAFURLSessionManagerTaskDelegate -DAFNetworkingTaskDidFinishAssetPathKey=XAAFNetworkingTaskDidFinishAssetPathKey -DAFNetworkingTaskDidFinishErrorKey=XAAFNetworkingTaskDidFinishErrorKey -DAFNetworkingTaskDidFinishResponseDataKey=XAAFNetworkingTaskDidFinishResponseDataKey -DAFNetworkingTaskDidFinishResponseSerializerKey=XAAFNetworkingTaskDidFinishResponseSerializerKey -DAFNetworkingTaskDidFinishSerializedResponseKey=XAAFNetworkingTaskDidFinishSerializedResponseKey -DAFNetworkingTaskDidCompleteAssetPathKey=XAAFNetworkingTaskDidCompleteAssetPathKey -DAFNetworkingTaskDidCompleteErrorKey=XAAFNetworkingTaskDidCompleteErrorKey -DAFNetworkingTaskDidCompleteResponseDataKey=XAAFNetworkingTaskDidCompleteResponseDataKey -DAFURLRequestSerializationErrorDomain=XAAFURLRequestSerializationErrorDomain -DAFNetworkingOperationFailingURLRequestErrorKey=XAAFNetworkingOperationFailingURLRequestErrorKey -DkAFUploadStream3GSuggestedPacketSize=kXAAFUploadStream3GSuggestedPacketSize -DkAFUploadStream3GSuggestedDelay=kXAAFUploadStream3GSuggestedDelay -DAFHTTPResponseSerializer=XAAFHTTPResponseSerializer -DAFJSONResponseSerializer=XAAFJSONResponseSerializer -DAFPropertyListResponseSerializer=XAAFPropertyListResponseSerializer -DAFImageResponseSerializer=XAAFImageResponseSerializer -DAFCompoundResponseSerializer=XAAFCompoundResponseSerializer -DAFURLResponseSerializationErrorDomain=XAAFURLResponseSerializationErrorDomain -DAFNetworkingOperationFailingURLResponseErrorKey=XAAFNetworkingOperationFailingURLResponseErrorKey -DAFNetworkingOperationFailingURLResponseDataErrorKey=XAAFNetworkingOperationFailingURLResponseDataErrorKey -DAFXMLParserResponseSerializer=XAAFXMLParserResponseSerializer -DAFNetworkingTaskDidResumeNotification=XAAFNetworkingTaskDidResumeNotification -DAFNetworkingTaskDidCompleteNotification=XAAFNetworkingTaskDidCompleteNotification -DAFNetworkingTaskDidSuspendNotification=XAAFNetworkingTaskDidSuspendNotification -DAFURLSessionDidInvalidateNotification=XAAFURLSessionDidInvalidateNotification -DAFURLSessionDownloadTaskDidFailToMoveFileNotification=XAAFURLSessionDownloadTaskDidFailToMoveFileNotification -DAFNetworkingTaskDidStartNotification=XAAFNetworkingTaskDidStartNotification -DAFNetworkingTaskDidFinishNotification=XAAFNetworkingTaskDidFinishNotification -DAFNetworkingTaskDidCompleteSerializedResponseKey=XAAFNetworkingTaskDidCompleteSerializedResponseKey -DAFNetworkingTaskDidCompleteResponseSerializerKey=XAAFNetworkingTaskDidCompleteResponseSerializerKey -D_AFURLSessionTaskSwizzling=_XAAFURLSessionTaskSwizzling -DXMDateUtil=XAXMDateUtil -DXMDeviceIdentifierAmbiguous=XAXMDeviceIdentifierAmbiguous -DXMDeviceConnectionWWAN=XAXMDeviceConnectionWWAN -DXMDeviceConnectionWiFi=XAXMDeviceConnectionWiFi -DXMDeviceConnectionUnknown=XAXMDeviceConnectionUnknown -DXMDeviceConnectionNone=XAXMDeviceConnectionNone -DXMEvent=XAXMEvent -DXMFileUtil=XAXMFileUtil -DXMFormData=XAXMFormData -DXMStringFormData=XAXMStringFormData -DXMBinaryFormData=XAXMBinaryFormData -DXMHTTPUtil=XAXMHTTPUtil -DXMLogger=XAXMLogger -DXMLoggerFactory=XAXMLoggerFactory -DXMDeviceUtil=XAXMDeviceUtil -DXMReflectionUtil=XAXMReflectionUtil -DReachability=XAReachability -DkReachabilityChangedNotification=kXAReachabilityChangedNotification -DXMSimpleRestClient=XAXMSimpleRestClient -DXMRemoteLogger=XAXMRemoteLogger -MMD -MT dependencies -MF /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAActionTest.d --serialize-diagnostics /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAActionTest.dia -c /Users/user/Development/XAPP-SDK-iOS/Tests/Unit\ Tests/XAActionTest.m -o /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAActionTest.o
+
+CompileC DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAAdQueueTest.o Tests/Unit\ Tests/XAAdQueueTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export LANG=en_US.US-ASCII
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/user/Development/XAPP-SDK-iOS/DerivedData/ModuleCache -fmodules-prune-interval=86400 -fmodules-prune-after=345600 -fbuild-session-file=/Users/user/Development/XAPP-SDK-iOS/DerivedData/ModuleCache/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wunreachable-code -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DOBJC_OLD_DISPATCH_PROTOTYPES=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -fasm-blocks -fstrict-aliasing -fprofile-arcs -ftest-coverage -Wprotocol -Wdeprecated-declarations -mios-simulator-version-min=9.0 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -fprofile-instr-generate -fcoverage-mapping -iquote /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-generated-files.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-own-target-headers.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-all-target-headers.hmap -iquote /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Unit\ Tests-project-headers.hmap -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/include -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/DerivedSources/i386 -I/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/DerivedSources -F/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -fembed-bitcode -DAFHTTPRequestOperation=XAAFHTTPRequestOperation -DAFURLSessionManager=XAAFURLSessionManager -DAFURLRequestSerialization=XAAFURLRequestSerialization -DAFURLConnectionOperation=XAAFURLConnectionOperation -DAFHTTPRequestOperationManager=XAAFHTTPRequestOperationManager -DAFHTTPSessionManager=XAAFHTTPSessionManager -DAFSecurityPolicy=XAAFSecurityPolicy -DAFNetworkReachabilityManager=XAAFNetworkReachabilityManager -DAFStringFromNetworkReachabilityStatus=XAAFStringFromNetworkReachabilityStatus -DAFNetworkingReachabilityDidChangeNotification=XAAFNetworkingReachabilityDidChangeNotification -DAFNetworkingReachabilityNotificationStatusItem=XAAFNetworkingReachabilityNotificationStatusItem -DAFNetworkingOperationDidStartNotification=XAAFNetworkingOperationDidStartNotification -DAFNetworkingOperationDidFinishNotification=XAAFNetworkingOperationDidFinishNotification -DAFQueryStringPair=XAAFQueryStringPair -DAFQueryStringPairsFromDictionary=XAAFQueryStringPairsFromDictionary -DAFQueryStringPairsFromKeyAndValue=XAAFQueryStringPairsFromKeyAndValue -DAFHTTPRequestSerializer=XAAFHTTPRequestSerializer -DAFStreamingMultipartFormData=XAAFStreamingMultipartFormData -DAFMultipartBodyStream=XAAFMultipartBodyStream -DAFHTTPBodyPart=XAAFHTTPBodyPart -DAFJSONRequestSerializer=XAAFJSONRequestSerializer -DAFPropertyListRequestSerializer=XAAFPropertyListRequestSerializer -DAFURLSessionManagerTaskDelegate=XAAFURLSessionManagerTaskDelegate -DAFNetworkingTaskDidFinishAssetPathKey=XAAFNetworkingTaskDidFinishAssetPathKey -DAFNetworkingTaskDidFinishErrorKey=XAAFNetworkingTaskDidFinishErrorKey -DAFNetworkingTaskDidFinishResponseDataKey=XAAFNetworkingTaskDidFinishResponseDataKey -DAFNetworkingTaskDidFinishResponseSerializerKey=XAAFNetworkingTaskDidFinishResponseSerializerKey -DAFNetworkingTaskDidFinishSerializedResponseKey=XAAFNetworkingTaskDidFinishSerializedResponseKey -DAFNetworkingTaskDidCompleteAssetPathKey=XAAFNetworkingTaskDidCompleteAssetPathKey -DAFNetworkingTaskDidCompleteErrorKey=XAAFNetworkingTaskDidCompleteErrorKey -DAFNetworkingTaskDidCompleteResponseDataKey=XAAFNetworkingTaskDidCompleteResponseDataKey -DAFURLRequestSerializationErrorDomain=XAAFURLRequestSerializationErrorDomain -DAFNetworkingOperationFailingURLRequestErrorKey=XAAFNetworkingOperationFailingURLRequestErrorKey -DkAFUploadStream3GSuggestedPacketSize=kXAAFUploadStream3GSuggestedPacketSize -DkAFUploadStream3GSuggestedDelay=kXAAFUploadStream3GSuggestedDelay -DAFHTTPResponseSerializer=XAAFHTTPResponseSerializer -DAFJSONResponseSerializer=XAAFJSONResponseSerializer -DAFPropertyListResponseSerializer=XAAFPropertyListResponseSerializer -DAFImageResponseSerializer=XAAFImageResponseSerializer -DAFCompoundResponseSerializer=XAAFCompoundResponseSerializer -DAFURLResponseSerializationErrorDomain=XAAFURLResponseSerializationErrorDomain -DAFNetworkingOperationFailingURLResponseErrorKey=XAAFNetworkingOperationFailingURLResponseErrorKey -DAFNetworkingOperationFailingURLResponseDataErrorKey=XAAFNetworkingOperationFailingURLResponseDataErrorKey -DAFXMLParserResponseSerializer=XAAFXMLParserResponseSerializer -DAFNetworkingTaskDidResumeNotification=XAAFNetworkingTaskDidResumeNotification -DAFNetworkingTaskDidCompleteNotification=XAAFNetworkingTaskDidCompleteNotification -DAFNetworkingTaskDidSuspendNotification=XAAFNetworkingTaskDidSuspendNotification -DAFURLSessionDidInvalidateNotification=XAAFURLSessionDidInvalidateNotification -DAFURLSessionDownloadTaskDidFailToMoveFileNotification=XAAFURLSessionDownloadTaskDidFailToMoveFileNotification -DAFNetworkingTaskDidStartNotification=XAAFNetworkingTaskDidStartNotification -DAFNetworkingTaskDidFinishNotification=XAAFNetworkingTaskDidFinishNotification -DAFNetworkingTaskDidCompleteSerializedResponseKey=XAAFNetworkingTaskDidCompleteSerializedResponseKey -DAFNetworkingTaskDidCompleteResponseSerializerKey=XAAFNetworkingTaskDidCompleteResponseSerializerKey -D_AFURLSessionTaskSwizzling=_XAAFURLSessionTaskSwizzling -DXMDateUtil=XAXMDateUtil -DXMDeviceIdentifierAmbiguous=XAXMDeviceIdentifierAmbiguous -DXMDeviceConnectionWWAN=XAXMDeviceConnectionWWAN -DXMDeviceConnectionWiFi=XAXMDeviceConnectionWiFi -DXMDeviceConnectionUnknown=XAXMDeviceConnectionUnknown -DXMDeviceConnectionNone=XAXMDeviceConnectionNone -DXMEvent=XAXMEvent -DXMFileUtil=XAXMFileUtil -DXMFormData=XAXMFormData -DXMStringFormData=XAXMStringFormData -DXMBinaryFormData=XAXMBinaryFormData -DXMHTTPUtil=XAXMHTTPUtil -DXMLogger=XAXMLogger -DXMLoggerFactory=XAXMLoggerFactory -DXMDeviceUtil=XAXMDeviceUtil -DXMReflectionUtil=XAXMReflectionUtil -DReachability=XAReachability -DkReachabilityChangedNotification=kXAReachabilityChangedNotification -DXMSimpleRestClient=XAXMSimpleRestClient -DXMRemoteLogger=XAXMRemoteLogger -MMD -MT dependencies -MF /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAAdQueueTest.d --serialize-diagnostics /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAAdQueueTest.dia -c /Users/user/Development/XAPP-SDK-iOS/Tests/Unit\ Tests/XAAdQueueTest.m -o /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/XAAdQueueTest.o
+
+Ld DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Unit\ Tests.xctest/Unit\ Tests normal i386
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export IPHONEOS_DEPLOYMENT_TARGET=9.0
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.2.sdk -L/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/iOS5Example/usr/lib -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/iOS7Example/usr/lib -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/iPhoneExample/Libraries -L/Users/user/Development/XAPP-SDK-iOS/Vendor/OCMock/Examples/SwiftExamples/usr/lib -F/Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -filelist /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/Unit\ Tests.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -rpath -Xlinker @loader_path/Frameworks -mios-simulator-version-min=9.0 -dead_strip -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework XCTest -fobjc-arc -fobjc-link-runtime -fprofile-arcs -ftest-coverage -fprofile-instr-generate /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/libOCMock.a -lXAPP -Xlinker -dependency_info -Xlinker /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Intermediates/XAPP.build/Debug-iphonesimulator/Unit\ Tests.build/Objects-normal/i386/Unit\ Tests_dependency_info.dat -o /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Unit\ Tests.xctest/Unit\ Tests
+
+Touch DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Unit\ Tests.xctest
+    cd /Users/user/Development/XAPP-SDK-iOS
+    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:~/Library/Scripts:/usr/local/bin:/Users/user/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/Library/Scripts:/Users/user/.rbenv/shims:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6:~/Library/Android/gradle/gradle-2.8:~/Library/Android/gradle/gradle-2.8/bin:/Users/user/Library/Android/ndk/android-ndk-r10e:/Users/user/Library/Android/sdk/tools:/Users/user/Library/Android/sdk/platform-tools:/Users/user/Library/Android/android-toolchains/arm-linux-androideabi-4.8:/Users/user/Library/Android/bin:/Users/user/Library/Play/play-2.2.6"
+    /usr/bin/touch -c /Users/user/Development/XAPP-SDK-iOS/DerivedData/XAPP/Build/Intermediates/CodeCoverage/XAPP/Products/Debug-iphonesimulator/Unit\ Tests.xctest
+
+13:25:42.846 xctest[16943:3897731] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+13:25:42.852 xctest[16943:3897731] _IDE_startExecutingTestPlanWithProtocolVersion:16
+Test Suite 'All tests' started at 2016-02-23 13:25:42.905
+Test Suite 'Unit Tests.xctest' started at 2016-02-23 13:25:42.907
+Test Suite 'UIColorTest' started at 2016-02-23 13:25:42.908
+Test Case '-[UIColorTest testUIColorFromHex]' started.
+Test Case '-[UIColorTest testUIColorFromHex]' passed (0.017 seconds).
+Test Case '-[UIColorTest testUIColorFromHexWithoutOctothorpe]' started.
+Test Case '-[UIColorTest testUIColorFromHexWithoutOctothorpe]' passed (0.001 seconds).
+Test Suite 'UIColorTest' passed at 2016-02-23 13:25:42.928.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.018 (0.021) seconds
+Test Suite 'XAActionTest' started at 2016-02-23 13:25:42.929
+Test Case '-[XAActionTest testActionTypeConversion]' started.
+Test Case '-[XAActionTest testActionTypeConversion]' passed (0.001 seconds).
+Test Case '-[XAActionTest testCopyAction]' started.
+/Users/user/Development/XAPP-SDK-iOS/Tests/Unit Tests/XAActionTest.m:47: error: -[XAActionTest testCopyAction] : ((copyAction) == nil) failed: "XAAction: EMAIL
+	 Trailing Audio Foreground: https://d4w75jmn2xd8w.cloudfront.net/Demo-AlphaCardPrompt.m4a
+	 Phrase: new phrase" - Copied action was nil
+Test Case '-[XAActionTest testCopyAction]' failed (0.018 seconds).
+Test Case '-[XAActionTest testCreateActionWithActionType]' started.
+Test Case '-[XAActionTest testCreateActionWithActionType]' passed (0.000 seconds).
+Test Case '-[XAActionTest testCreateActionWithActionTypeString]' started.
+Test Case '-[XAActionTest testCreateActionWithActionTypeString]' passed (0.000 seconds).
+Test Suite 'XAActionTest' failed at 2016-02-23 13:25:42.951.
+	 Executed 4 tests, with 1 failure (0 unexpected) in 0.019 (0.022) seconds
+Test Suite 'XAAdContainerTest' started at 2016-02-23 13:25:42.952
+Test Case '-[XAAdContainerTest testCreateContainer]' started.
+Test Case '-[XAAdContainerTest testCreateContainer]' passed (0.022 seconds).
+Test Case '-[XAAdContainerTest testCreateContainerHeightLimited]' started.
+Test Case '-[XAAdContainerTest testCreateContainerHeightLimited]' passed (0.001 seconds).
+Test Case '-[XAAdContainerTest testCreateContainerWithLimitedByWidth]' started.
+Test Case '-[XAAdContainerTest testCreateContainerWithLimitedByWidth]' passed (0.002 seconds).
+Test Case '-[XAAdContainerTest testCreateWithNilImage]' started.
+Test Case '-[XAAdContainerTest testCreateWithNilImage]' passed (0.000 seconds).
+Test Case '-[XAAdContainerTest testUpdateAdImage]' started.
+Test Case '-[XAAdContainerTest testUpdateAdImage]' passed (0.001 seconds).
+Test Suite 'XAAdContainerTest' passed at 2016-02-23 13:25:42.980.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.026 (0.028) seconds
+Test Suite 'XAAdDirectorContextTest' started at 2016-02-23 13:25:42.980
+Test Case '-[XAAdDirectorContextTest testCreateAdDirectorContext]' started.
+Test Case '-[XAAdDirectorContextTest testCreateAdDirectorContext]' passed (0.000 seconds).
+Test Suite 'XAAdDirectorContextTest' passed at 2016-02-23 13:25:42.981.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'XAAdDirectorStateActionTest' started at 2016-02-23 13:25:42.981
+Test Case '-[XAAdDirectorStateActionTest testCreate]' started.
+Test Case '-[XAAdDirectorStateActionTest testCreate]' passed (0.000 seconds).
+Test Case '-[XAAdDirectorStateActionTest testMatchActionWithCustomPhrase]' started.
+Test Case '-[XAAdDirectorStateActionTest testMatchActionWithCustomPhrase]' passed (0.000 seconds).
+Test Suite 'XAAdDirectorStateActionTest' passed at 2016-02-23 13:25:42.983.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'XAAdDirectorStatePromptTest' started at 2016-02-23 13:25:42.983
+Test Case '-[XAAdDirectorStatePromptTest testAudioOnlyAdWithActions]' started.
+[xappads][2016-02-23T18:25:42.984Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorStatePromptTest testAudioOnlyAdWithActions]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorStatePromptTest testAudioOnlyAdWithoutActions]' started.
+[xappads][2016-02-23T18:25:42.986Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorStatePromptTest testAudioOnlyAdWithoutActions]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorStatePromptTest testCreate]' started.
+Test Case '-[XAAdDirectorStatePromptTest testCreate]' passed (0.000 seconds).
+Test Case '-[XAAdDirectorStatePromptTest testInterstitialImageDismiss]' started.
+[xappads][2016-02-23T18:25:42.989Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorStatePromptTest testInterstitialImageDismiss]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorStatePromptTest testInTunerTileImageDismiss]' started.
+[xappads][2016-02-23T18:25:42.990Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorStatePromptTest testInTunerTileImageDismiss]' passed (0.004 seconds).
+Test Suite 'XAAdDirectorStatePromptTest' passed at 2016-02-23 13:25:42.994.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.009 (0.011) seconds
+Test Suite 'XAAdDirectorStateResetTest' started at 2016-02-23 13:25:42.994
+Test Case '-[XAAdDirectorStateResetTest testCreate]' started.
+Test Case '-[XAAdDirectorStateResetTest testCreate]' passed (0.000 seconds).
+Test Suite 'XAAdDirectorStateResetTest' passed at 2016-02-23 13:25:42.995.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'XAAdDirectorStateTellMeMoreTest' started at 2016-02-23 13:25:42.995
+Test Case '-[XAAdDirectorStateTellMeMoreTest testCreate]' started.
+Test Case '-[XAAdDirectorStateTellMeMoreTest testCreate]' passed (0.000 seconds).
+Test Case '-[XAAdDirectorStateTellMeMoreTest testRunStateHandleAudioPlaybackError]' started.
+Test Case '-[XAAdDirectorStateTellMeMoreTest testRunStateHandleAudioPlaybackError]' passed (0.000 seconds).
+Test Suite 'XAAdDirectorStateTellMeMoreTest' passed at 2016-02-23 13:25:42.996.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'XAAdDirectorStateTest' started at 2016-02-23 13:25:42.997
+Test Case '-[XAAdDirectorStateTest testAbstractClassInitializeException]' started.
+Test Case '-[XAAdDirectorStateTest testAbstractClassInitializeException]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorStateTest testCreate]' started.
+Test Case '-[XAAdDirectorStateTest testCreate]' passed (0.000 seconds).
+Test Case '-[XAAdDirectorStateTest testHandleOpenInAppBrowserWithoutViewController]' started.
+Test Case '-[XAAdDirectorStateTest testHandleOpenInAppBrowserWithoutViewController]' passed (0.000 seconds).
+Test Case '-[XAAdDirectorStateTest testHandleOpenURLInAppBrowserDisabled]' started.
+Test Case '-[XAAdDirectorStateTest testHandleOpenURLInAppBrowserDisabled]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorStateTest testHandleOpenUrlInBackgroundWithInAppBrowserDisabled]' started.
+Test Case '-[XAAdDirectorStateTest testHandleOpenUrlInBackgroundWithInAppBrowserDisabled]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorStateTest testHandleOpenUrlInForegroundWithInAppBrowserDisabled]' started.
+Test Case '-[XAAdDirectorStateTest testHandleOpenUrlInForegroundWithInAppBrowserDisabled]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorStateTest testHandleOpenURLWithInAppBrowserRootViewController]' started.
+Test Case '-[XAAdDirectorStateTest testHandleOpenURLWithInAppBrowserRootViewController]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorStateTest testHandleOpenURLWithoutInAppBrowserRootViewController]' started.
+Test Case '-[XAAdDirectorStateTest testHandleOpenURLWithoutInAppBrowserRootViewController]' passed (0.001 seconds).
+Test Suite 'XAAdDirectorStateTest' passed at 2016-02-23 13:25:43.005.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.006 (0.008) seconds
+Test Suite 'XAAdDirectorStateUnloadingTest' started at 2016-02-23 13:25:43.006
+Test Case '-[XAAdDirectorStateUnloadingTest testCreate]' started.
+Test Case '-[XAAdDirectorStateUnloadingTest testCreate]' passed (0.000 seconds).
+Test Suite 'XAAdDirectorStateUnloadingTest' passed at 2016-02-23 13:25:43.006.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'XAAdDirectorTest' started at 2016-02-23 13:25:43.007
+Test Case '-[XAAdDirectorTest testChangeStateActionWithEmailAction]' started.
+Test Case '-[XAAdDirectorTest testChangeStateActionWithEmailAction]' passed (0.037 seconds).
+Test Case '-[XAAdDirectorTest testChangeStateExpansion]' started.
+[xappads][2016-02-23T18:25:43.045Z][WARN ][XAAdDirectorStateTe][Line 45] Expansion audio did not prepare to play
+Test Case '-[XAAdDirectorTest testChangeStateExpansion]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testChangeStateListening]' started.
+Test Case '-[XAAdDirectorTest testChangeStateListening]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testChangeStatePrompt]' started.
+[xappads][2016-02-23T18:25:43.050Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorTest testChangeStatePrompt]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testChangeStateUnloading]' started.
+Test Case '-[XAAdDirectorTest testChangeStateUnloading]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testCreate]' started.
+Test Case '-[XAAdDirectorTest testCreate]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testHandleAdViewTouch]' started.
+[xappads][2016-02-23T18:25:43.057Z][WARN ][XAAdAudio          ][Line 114] Audio doesn't exist for  when it was attempted to prepare.
+[xappads][2016-02-23T18:25:43.057Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorTest testHandleAdViewTouch]' passed (0.004 seconds).
+Test Case '-[XAAdDirectorTest testHandleAdViewTouchWithDisabledInAppBrowser]' started.
+[xappads][2016-02-23T18:25:43.061Z][WARN ][XAAdAudio          ][Line 114] Audio doesn't exist for  when it was attempted to prepare.
+[xappads][2016-02-23T18:25:43.061Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorTest testHandleAdViewTouchWithDisabledInAppBrowser]' passed (0.004 seconds).
+Test Case '-[XAAdDirectorTest testHandleAdViewTouchWithPerformCustomActionOnTouch]' started.
+[xappads][2016-02-23T18:25:43.065Z][WARN ][XAAdAudio          ][Line 114] Audio doesn't exist for  when it was attempted to prepare.
+[xappads][2016-02-23T18:25:43.065Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorTest testHandleAdViewTouchWithPerformCustomActionOnTouch]' passed (0.003 seconds).
+Test Case '-[XAAdDirectorTest testListeningStateToActionStateWithWebPageAction]' started.
+Test Case '-[XAAdDirectorTest testListeningStateToActionStateWithWebPageAction]' passed (0.005 seconds).
+Test Case '-[XAAdDirectorTest testPassThroughMethods]' started.
+[xappads][2016-02-23T18:25:43.096Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorTest testPassThroughMethods]' passed (0.028 seconds).
+Test Case '-[XAAdDirectorTest testPlayAdTwice]' started.
+[xappads][2016-02-23T18:25:43.103Z][WARN ][XAAdDirectorStatePr][Line 90] Audio did not prepare to play
+Test Case '-[XAAdDirectorTest testPlayAdTwice]' passed (0.005 seconds).
+Test Case '-[XAAdDirectorTest testPlayInterstitialWithNilRootViewController]' started.
+Test Case '-[XAAdDirectorTest testPlayInterstitialWithNilRootViewController]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testPlayInTunerTileWithNilContainingView]' started.
+Test Case '-[XAAdDirectorTest testPlayInTunerTileWithNilContainingView]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testPlayUnLoadedAd]' started.
+Test Case '-[XAAdDirectorTest testPlayUnLoadedAd]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testRemoteControlCancelEvent]' started.
+Test Case '-[XAAdDirectorTest testRemoteControlCancelEvent]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testRemoteControlPauseEvent]' started.
+Test Case '-[XAAdDirectorTest testRemoteControlPauseEvent]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testRemoteControlPlayEvent]' started.
+Test Case '-[XAAdDirectorTest testRemoteControlPlayEvent]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testRemoteControlToggleEventDuringAudioPaused]' started.
+Test Case '-[XAAdDirectorTest testRemoteControlToggleEventDuringAudioPaused]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testRemoteControlToggleEventDuringAudioPlaying]' started.
+Test Case '-[XAAdDirectorTest testRemoteControlToggleEventDuringAudioPlaying]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testValidateAdPlaybackOverAirPlayDisabled]' started.
+Test Case '-[XAAdDirectorTest testValidateAdPlaybackOverAirPlayDisabled]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testValidateAdPlaybackOverBluetoothDisabled]' started.
+Test Case '-[XAAdDirectorTest testValidateAdPlaybackOverBluetoothDisabled]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testValidateAdPlaybackWhileDeviceInPhoneCall]' started.
+[xappads][2016-02-23T18:25:43.123Z][WARN ][XAAdDirector       ][Line 288] We can't plan an Ad!  The user is in a phone call
+Test Case '-[XAAdDirectorTest testValidateAdPlaybackWhileDeviceInPhoneCall]' passed (0.002 seconds).
+Test Case '-[XAAdDirectorTest testValidatePlayLoadedAd]' started.
+Test Case '-[XAAdDirectorTest testValidatePlayLoadedAd]' passed (0.001 seconds).
+Test Case '-[XAAdDirectorTest testValidatePlayUnloadedAd]' started.
+Test Case '-[XAAdDirectorTest testValidatePlayUnloadedAd]' passed (0.001 seconds).
+Test Suite 'XAAdDirectorTest' passed at 2016-02-23 13:25:43.127.
+	 Executed 25 tests, with 0 failures (0 unexpected) in 0.112 (0.120) seconds
+Test Suite 'XAAdImageTest' started at 2016-02-23 13:25:43.127
+Test Case '-[XAAdImageTest testCreateWithImage]' started.
+Test Case '-[XAAdImageTest testCreateWithImage]' passed (0.030 seconds).
+Test Case '-[XAAdImageTest testLoadBadImageFromBadURL]' started.
+Test Case '-[XAAdImageTest testLoadBadImageFromBadURL]' passed (0.032 seconds).
+Test Case '-[XAAdImageTest testLoadImageAndDestroyInstance]' started.
+Test Case '-[XAAdImageTest testLoadImageAndDestroyInstance]' passed (0.240 seconds).
+Test Case '-[XAAdImageTest testLoadImageFromHTTPS]' started.
+Test Case '-[XAAdImageTest testLoadImageFromHTTPS]' passed (0.234 seconds).
+Test Case '-[XAAdImageTest testLoadImageFromURL]' started.
+Test Case '-[XAAdImageTest testLoadImageFromURL]' passed (0.068 seconds).
+Test Case '-[XAAdImageTest testLoadImageWithUIImage]' started.
+Test Case '-[XAAdImageTest testLoadImageWithUIImage]' passed (0.008 seconds).
+Test Suite 'XAAdImageTest' passed at 2016-02-23 13:25:43.742.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.611 (0.615) seconds
+Test Suite 'XAAdQueueTest' started at 2016-02-23 13:25:43.742
+Test Case '-[XAAdQueueTest testAdQueue]' started.
+/Users/user/Development/XAPP-SDK-iOS/Tests/Unit Tests/XAAdQueueTest.m:70: error: -[XAAdQueueTest testAdQueue] : ((1) equal to ([queue length])) failed: ("1") is not equal to ("0")
+Test Case '-[XAAdQueueTest testAdQueue]' failed (0.005 seconds).
+Test Suite 'XAAdQueueTest' failed at 2016-02-23 13:25:43.747.
+	 Executed 1 test, with 1 failure (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'XAAdRequestTest' started at 2016-02-23 13:25:43.748
+Test Case '-[XAAdRequestTest testCopyAdRequest]' started.
+Test Case '-[XAAdRequestTest testCopyAdRequest]' passed (0.000 seconds).
+Test Case '-[XAAdRequestTest testCreatAdRequestByTag]' started.
+Test Case '-[XAAdRequestTest testCreatAdRequestByTag]' passed (0.000 seconds).
+Test Case '-[XAAdRequestTest testCreateAdRequestByLength]' started.
+Test Case '-[XAAdRequestTest testCreateAdRequestByLength]' passed (0.000 seconds).
+Test Case '-[XAAdRequestTest testGenerateDefaultParametersWithoutUserData]' started.
+Test Case '-[XAAdRequestTest testGenerateDefaultParametersWithoutUserData]' passed (0.002 seconds).
+Test Case '-[XAAdRequestTest testGenerateDefaultParametersWithUserData]' started.
+Test Case '-[XAAdRequestTest testGenerateDefaultParametersWithUserData]' passed (0.000 seconds).
+Test Suite 'XAAdRequestTest' passed at 2016-02-23 13:25:43.753.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.003 (0.005) seconds
+Test Suite 'XAAdResourceTest' started at 2016-02-23 13:25:43.753
+Test Case '-[XAAdResourceTest testCancelAdResourceLoad]' started.
+Test Case '-[XAAdResourceTest testCancelAdResourceLoad]' passed (0.003 seconds).
+Test Case '-[XAAdResourceTest testIsSource]' started.
+Test Case '-[XAAdResourceTest testIsSource]' passed (0.001 seconds).
+Test Case '-[XAAdResourceTest testLoadBadAdResource]' started.
+Test Case '-[XAAdResourceTest testLoadBadAdResource]' passed (0.007 seconds).
+Test Case '-[XAAdResourceTest testLoadEmptyURLStringAdResource]' started.
+[xappads][2016-02-23T18:25:43.767Z][ERROR][XAAdResource       ][Line 66] Error while reading saved data - The operation couldn’t be completed. (Cocoa error 257.)
+Test Case '-[XAAdResourceTest testLoadEmptyURLStringAdResource]' passed (0.005 seconds).
+Test Case '-[XAAdResourceTest testLoadGoodAdResource]' started.
+Test Case '-[XAAdResourceTest testLoadGoodAdResource]' passed (0.055 seconds).
+Test Case '-[XAAdResourceTest testLoadLoadedResource]' started.
+Test Case '-[XAAdResourceTest testLoadLoadedResource]' passed (0.054 seconds).
+Test Case '-[XAAdResourceTest testLoadNilAdResource]' started.
+Test Case '-[XAAdResourceTest testLoadNilAdResource]' passed (0.001 seconds).
+Test Case '-[XAAdResourceTest testLoadResourceCancelRequestOperation]' started.
+Test Case '-[XAAdResourceTest testLoadResourceCancelRequestOperation]' passed (0.003 seconds).
+Test Case '-[XAAdResourceTest testLoadResourceRequestOperation]' started.
+Test Case '-[XAAdResourceTest testLoadResourceRequestOperation]' passed (0.252 seconds).
+Test Case '-[XAAdResourceTest testLocalResourceLoad]' started.
+Test Case '-[XAAdResourceTest testLocalResourceLoad]' passed (0.058 seconds).
+Test Case '-[XAAdResourceTest testLocalResourceLoadBad]' started.
+Test Case '-[XAAdResourceTest testLocalResourceLoadBad]' passed (0.007 seconds).
+Test Suite 'XAAdResourceTest' passed at 2016-02-23 13:25:44.203.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.445 (0.450) seconds
+Test Suite 'XAAdServiceTest' started at 2016-02-23 13:25:44.203
+Test Case '-[XAAdServiceTest testBadBulkAdLoadRequest]' started.
+Test Case '-[XAAdServiceTest testBadBulkAdLoadRequest]' passed (0.348 seconds).
+Test Case '-[XAAdServiceTest testBulkAdLoadRequestNoSession]' started.
+Test Case '-[XAAdServiceTest testBulkAdLoadRequestNoSession]' passed (0.746 seconds).
+Test Case '-[XAAdServiceTest testGetDiagnosticsFromAdResult]' started.
+Test Case '-[XAAdServiceTest testGetDiagnosticsFromAdResult]' passed (0.001 seconds).
+Test Case '-[XAAdServiceTest testGoodAdRequest]' started.
+Test Case '-[XAAdServiceTest testGoodAdRequest]' passed (0.362 seconds).
+Test Case '-[XAAdServiceTest testGoodAdRequestWithoutLazyLoad]' started.
+Test Case '-[XAAdServiceTest testGoodAdRequestWithoutLazyLoad]' passed (0.392 seconds).
+Test Case '-[XAAdServiceTest testGoodBulkAdLoadRequest]' started.
+Test Case '-[XAAdServiceTest testGoodBulkAdLoadRequest]' passed (0.991 seconds).
+Test Case '-[XAAdServiceTest testRequestGoodDeviceConfiguration]' started.
+Test Case '-[XAAdServiceTest testRequestGoodDeviceConfiguration]' passed (0.159 seconds).
+Test Case '-[XAAdServiceTest testStartSessionBadApplicationKey]' started.
+[xappads][2016-02-23T18:25:47.247Z][WARN ][XAAdService        ][Line 236] Session start failed with error: Invalid value for field: appKey value: BAD
+[xappads][2016-02-23T18:25:47.248Z][WARN ][XAAdService        ][Line 237] Error code: 3001
+[xappads][2016-02-23T18:25:47.249Z][WARN ][XAAdService        ][Line 238] Recovery Suggestion: (null)
+[xappads][2016-02-23T18:25:47.249Z][WARN ][XAAdService        ][Line 239] Failure Reason: Failure reason unknown
+[xappads][2016-02-23T18:25:47.250Z][WARN ][XAAdService        ][Line 240] Error Domain=com.xappmedia.ads Code=3001 "Invalid value for field: appKey value: BAD" UserInfo=0x7e06aad0 {NSLocalizedFailureReason=Failure reason unknown, NSLocalizedDescription=Invalid value for field: appKey value: BAD}
+2016-02-23 13:25:47.250 xctest[16943:3897727] Start session response received success: FALSE
+2016-02-23 13:25:47.250 xctest[16943:3897727] Error: Invalid value for field: appKey value: BAD
+Test Case '-[XAAdServiceTest testStartSessionBadApplicationKey]' passed (0.050 seconds).
+Test Case '-[XAAdServiceTest testStartSessionGood]' started.
+[xappads][2016-02-23T18:25:47.360Z][WARN ][XAXMRemoteLogger   ][Line 166] Error when logging remote error: Request failed: bad request (400)
+Test Case '-[XAAdServiceTest testStartSessionGood]' passed (0.153 seconds).
+Test Suite 'XAAdServiceTest' passed at 2016-02-23 13:25:47.410.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 3.202 (3.207) seconds
+Test Suite 'XAAdViewTest' started at 2016-02-23 13:25:47.410
+Test Case '-[XAAdViewTest testCreateAdView]' started.
+Test Case '-[XAAdViewTest testCreateAdView]' passed (0.009 seconds).
+Test Case '-[XAAdViewTest testCreateAdViewLazyLoadImageWithDurationProgressView]' started.
+Test Case '-[XAAdViewTest testCreateAdViewLazyLoadImageWithDurationProgressView]' passed (0.042 seconds).
+Test Case '-[XAAdViewTest testCreateAdViewWithoutImageLoad]' started.
+Test Case '-[XAAdViewTest testCreateAdViewWithoutImageLoad]' passed (0.002 seconds).
+Test Case '-[XAAdViewTest testCreateAdViewWithoutLoadedAdImage]' started.
+Test Case '-[XAAdViewTest testCreateAdViewWithoutLoadedAdImage]' passed (0.041 seconds).
+Test Case '-[XAAdViewTest testCreateAdViewWithoutLoadedAdImageInBackground]' started.
+Test Case '-[XAAdViewTest testCreateAdViewWithoutLoadedAdImageInBackground]' passed (0.051 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithFrame]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithFrame]' passed (0.002 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithFrameTooWide]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithFrameTooWide]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithFullWidth]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithFullWidth]' passed (0.002 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithHalfVertical]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithHalfVertical]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithoutFrameBarStyle]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithoutFrameBarStyle]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithoutFrameDefaultStyle]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithoutFrameDefaultStyle]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithPartialWidth]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithPartialWidth]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithTimeLabels]' started.
+Test Case '-[XAAdViewTest testDetermineDurationProgressViewFrameWithTimeLabels]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testUpdateElapsedTimeLabel]' started.
+Test Case '-[XAAdViewTest testUpdateElapsedTimeLabel]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testUpdateRemainingTimeLabel]' started.
+Test Case '-[XAAdViewTest testUpdateRemainingTimeLabel]' passed (0.001 seconds).
+Test Case '-[XAAdViewTest testViewSwiped]' started.
+Test Case '-[XAAdViewTest testViewSwiped]' passed (0.014 seconds).
+Test Case '-[XAAdViewTest testViewTapped]' started.
+Test Case '-[XAAdViewTest testViewTapped]' passed (0.016 seconds).
+Test Suite 'XAAdViewTest' passed at 2016-02-23 13:25:47.606.
+	 Executed 17 tests, with 0 failures (0 unexpected) in 0.189 (0.195) seconds
+Test Suite 'XAAdvertisementTest' started at 2016-02-23 13:25:47.606
+Test Case '-[XAAdvertisementTest testCreateAdvertisement]' started.
+Test Case '-[XAAdvertisementTest testCreateAdvertisement]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testCreateAdvertisementWithAdRequestReply]' started.
+Test Case '-[XAAdvertisementTest testCreateAdvertisementWithAdRequestReply]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testCreateAdvertisementWithEmptyBaseAudioUrl]' started.
+Test Case '-[XAAdvertisementTest testCreateAdvertisementWithEmptyBaseAudioUrl]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testCuesWithUrlsAdRequestReply]' started.
+2016-02-23 13:25:47.609 xctest[16943:3897727] 1
+Test Case '-[XAAdvertisementTest testCuesWithUrlsAdRequestReply]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testNullCuesAdRequestReply]' started.
+2016-02-23 13:25:47.610 xctest[16943:3897727] 1
+Test Case '-[XAAdvertisementTest testNullCuesAdRequestReply]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testPlayExpansionAudioWithoutExpansionAudio]' started.
+Test Case '-[XAAdvertisementTest testPlayExpansionAudioWithoutExpansionAudio]' passed (0.002 seconds).
+Test Case '-[XAAdvertisementTest testPlayExpansionAudioWithoutExpansionAudioLoaded]' started.
+Test Case '-[XAAdvertisementTest testPlayExpansionAudioWithoutExpansionAudioLoaded]' passed (0.002 seconds).
+Test Case '-[XAAdvertisementTest testSetExpansionAudioWithEmptyURLString]' started.
+Test Case '-[XAAdvertisementTest testSetExpansionAudioWithEmptyURLString]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testSetExpansionAudioWithNSNull]' started.
+Test Case '-[XAAdvertisementTest testSetExpansionAudioWithNSNull]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testSetExpansionAudioWithURL]' started.
+Test Case '-[XAAdvertisementTest testSetExpansionAudioWithURL]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testSetExpansionWithNSNullPhrase]' started.
+Test Case '-[XAAdvertisementTest testSetExpansionWithNSNullPhrase]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testSetTrackingURL]' started.
+Test Case '-[XAAdvertisementTest testSetTrackingURL]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testSetTrackingURLWithEmptyString]' started.
+Test Case '-[XAAdvertisementTest testSetTrackingURLWithEmptyString]' passed (0.001 seconds).
+Test Case '-[XAAdvertisementTest testSetTrackingURLWithNSNull]' started.
+Test Case '-[XAAdvertisementTest testSetTrackingURLWithNSNull]' passed (0.001 seconds).
+Test Suite 'XAAdvertisementTest' passed at 2016-02-23 13:25:47.622.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.011 (0.016) seconds
+Test Suite 'XAAudioSessionManagerTest' started at 2016-02-23 13:25:47.622
+Test Case '-[XAAudioSessionManagerTest testStoreAndRestoreAudioSessionData]' started.
+Test Case '-[XAAudioSessionManagerTest testStoreAndRestoreAudioSessionData]' passed (0.000 seconds).
+Test Suite 'XAAudioSessionManagerTest' passed at 2016-02-23 13:25:47.623.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'XADFPAdapterTest' started at 2016-02-23 13:25:47.623
+Test Case '-[XADFPAdapterTest testRequestAd]' started.
+2016-02-23 13:25:47.892 xctest[16943:3897727] [xappads][2016-02-23T18:25:47.892Z][WARN ][XAAdService        ][Line 409] Ad Request error: No ad found in DFP for - <59067673>/<XAPP-VAST>
+2016-02-23 13:25:47.893 xctest[16943:3897727] [xappads][2016-02-23T18:25:47.893Z][WARN ][XAAdService        ][Line 410] Error code: 3008
+2016-02-23 13:25:47.894 xctest[16943:3897727] [xappads][2016-02-23T18:25:47.894Z][WARN ][XAAdService        ][Line 411] userInfo {
+    NSLocalizedDescription = "No ad found in DFP for - <59067673>/<XAPP-VAST>";
+    NSLocalizedFailureReason = "Ad Request failed to return a valid advertisement";
+}
+2016-02-23 13:25:47.898 xctest[16943:3897727] Error retreiving ad Error Domain=com.xappmedia.ads Code=3008 "No ad found in DFP for - <59067673>/<XAPP-VAST>" UserInfo=0x7e06b350 {NSLocalizedFailureReason=Ad Request failed to return a valid advertisement, NSLocalizedDescription=No ad found in DFP for - <59067673>/<XAPP-VAST>}
+Test Case '-[XADFPAdapterTest testRequestAd]' passed (0.320 seconds).
+Test Case '-[XADFPAdapterTest testStartAndTerminateSession]' started.
+Test Case '-[XADFPAdapterTest testStartAndTerminateSession]' passed (0.087 seconds).
+Test Suite 'XADFPAdapterTest' passed at 2016-02-23 13:25:48.031.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.407 (0.408) seconds
+Test Suite 'XADefaultAdResponseReplyStrategyUnitTest' started at 2016-02-23 13:25:48.031
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testArchiveDataForLaterProcessingAndPushPendingData]' started.
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testArchiveDataForLaterProcessingAndPushPendingData]' passed (0.003 seconds).
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testArchiveMultipleTimesForSameAd]' started.
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testArchiveMultipleTimesForSameAd]' passed (0.002 seconds).
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testDataArchiveAndUnarchive]' started.
+2016-02-23 13:25:48.040 xctest[16943:3897727] [xappads][2016-02-23T18:25:48.040Z][WARN ][XADefaultAdResponse][Line 219] File did not exist at path /Users/user/Library/Developer/CoreSimulator/Devices/26C2133F-C54E-4F04-AB6C-4FD8EF907C89/data/Documents/AdResponse/HomeDepot-etye7348374ur3u2ei3ru39.data, returning nil
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testDataArchiveAndUnarchive]' passed (0.003 seconds).
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testDeleteNonExistentArchive]' started.
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testDeleteNonExistentArchive]' passed (0.001 seconds).
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testInitialState]' started.
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testInitialState]' passed (0.001 seconds).
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testSetRetries]' started.
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testSetRetries]' passed (0.001 seconds).
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testSharedInstanceIsNotNil]' started.
+Test Case '-[XADefaultAdResponseReplyStrategyUnitTest testSharedInstanceIsNotNil]' passed (0.000 seconds).
+Test Suite 'XADefaultAdResponseReplyStrategyUnitTest' passed at 2016-02-23 13:25:48.044.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.010 (0.013) seconds
+Test Suite 'XAPermissionStrategyTest' started at 2016-02-23 13:25:48.044
+Test Case '-[XAPermissionStrategyTest testArchiveAndUnarchiveStrategyWithImageCreative]' started.
+Test Case '-[XAPermissionStrategyTest testArchiveAndUnarchiveStrategyWithImageCreative]' passed (0.052 seconds).
+Test Case '-[XAPermissionStrategyTest testArchiveAndUnarchiveStrategyWithTextCreative]' started.
+Test Case '-[XAPermissionStrategyTest testArchiveAndUnarchiveStrategyWithTextCreative]' passed (0.001 seconds).
+Test Case '-[XAPermissionStrategyTest testCaching]' started.
+2016-02-23 13:25:48.098 xctest[16943:3897727] Creating archive data directory /Users/user/Library/Developer/CoreSimulator/Devices/26C2133F-C54E-4F04-AB6C-4FD8EF907C89/data/Documents/xapp/archive
+2016-02-23 13:25:48.101 xctest[16943:3897727] Error clearing archived strategy: (null)
+Test Case '-[XAPermissionStrategyTest testCaching]' passed (0.004 seconds).
+Test Case '-[XAPermissionStrategyTest testClearingCachedStrategyNotCached]' started.
+2016-02-23 13:25:48.102 xctest[16943:3897727] Creating archive data directory /Users/user/Library/Developer/CoreSimulator/Devices/26C2133F-C54E-4F04-AB6C-4FD8EF907C89/data/Documents/xapp/archive
+Test Case '-[XAPermissionStrategyTest testClearingCachedStrategyNotCached]' passed (0.001 seconds).
+Test Case '-[XAPermissionStrategyTest testCreate]' started.
+Test Case '-[XAPermissionStrategyTest testCreate]' passed (0.001 seconds).
+Test Case '-[XAPermissionStrategyTest testIsEqualAnotherClass]' started.
+Test Case '-[XAPermissionStrategyTest testIsEqualAnotherClass]' passed (0.000 seconds).
+Test Case '-[XAPermissionStrategyTest testIsEqualAnotherStrategyWithSameId]' started.
+Test Case '-[XAPermissionStrategyTest testIsEqualAnotherStrategyWithSameId]' passed (0.000 seconds).
+Test Case '-[XAPermissionStrategyTest testIsEqualNil]' started.
+Test Case '-[XAPermissionStrategyTest testIsEqualNil]' passed (0.000 seconds).
+Test Case '-[XAPermissionStrategyTest testIsEqualSameObject]' started.
+Test Case '-[XAPermissionStrategyTest testIsEqualSameObject]' passed (0.000 seconds).
+Test Case '-[XAPermissionStrategyTest testSatisfiedRequirements]' started.
+Test Case '-[XAPermissionStrategyTest testSatisfiedRequirements]' passed (0.002 seconds).
+Test Case '-[XAPermissionStrategyTest testUnSatisfiedRequirements]' started.
+Test Case '-[XAPermissionStrategyTest testUnSatisfiedRequirements]' passed (0.001 seconds).
+Test Suite 'XAPermissionStrategyTest' passed at 2016-02-23 13:25:48.111.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.063 (0.066) seconds
+Test Suite 'XAPermissionsTest' started at 2016-02-23 13:25:48.111
+Test Case '-[XAPermissionsTest testRequestWithPermissionGranted]' started.
+Test Case '-[XAPermissionsTest testRequestWithPermissionGranted]' passed (0.002 seconds).
+Test Case '-[XAPermissionsTest testStrategyWithUnMetRequirements]' started.
+2016-02-23 13:25:48.114 xctest[16943:3897727] Creating archive data directory /Users/user/Library/Developer/CoreSimulator/Devices/26C2133F-C54E-4F04-AB6C-4FD8EF907C89/data/Documents/xapp/archive
+Test Case '-[XAPermissionsTest testStrategyWithUnMetRequirements]' passed (0.005 seconds).
+Test Case '-[XAPermissionsTest testWithPermissionDenied]' started.
+Test Case '-[XAPermissionsTest testWithPermissionDenied]' passed (0.002 seconds).
+Test Suite 'XAPermissionsTest' passed at 2016-02-23 13:25:48.122.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.009 (0.011) seconds
+Test Suite 'XAStrategyAbstractCreativeTest' started at 2016-02-23 13:25:48.122
+Test Case '-[XAStrategyAbstractCreativeTest testAbstractClassInit]' started.
+Test Case '-[XAStrategyAbstractCreativeTest testAbstractClassInit]' passed (0.000 seconds).
+Test Case '-[XAStrategyAbstractCreativeTest testAbstractClassLoaded]' started.
+Test Case '-[XAStrategyAbstractCreativeTest testAbstractClassLoaded]' passed (0.000 seconds).
+Test Case '-[XAStrategyAbstractCreativeTest testAbstractClassPresent]' started.
+Test Case '-[XAStrategyAbstractCreativeTest testAbstractClassPresent]' passed (0.000 seconds).
+Test Suite 'XAStrategyAbstractCreativeTest' passed at 2016-02-23 13:25:48.125.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'XAStrategyCreativeStyleTest' started at 2016-02-23 13:25:48.125
+Test Case '-[XAStrategyCreativeStyleTest testArchiveAndUnArchive]' started.
+Test Case '-[XAStrategyCreativeStyleTest testArchiveAndUnArchive]' passed (0.001 seconds).
+Test Case '-[XAStrategyCreativeStyleTest testCreate]' started.
+Test Case '-[XAStrategyCreativeStyleTest testCreate]' passed (0.000 seconds).
+Test Suite 'XAStrategyCreativeStyleTest' passed at 2016-02-23 13:25:48.128.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.003) seconds
+Test Suite 'XAStrategyImageCreativeTest' started at 2016-02-23 13:25:48.128
+Test Case '-[XAStrategyImageCreativeTest testArchiveAndUnArchive]' started.
+Test Case '-[XAStrategyImageCreativeTest testArchiveAndUnArchive]' passed (0.049 seconds).
+Test Case '-[XAStrategyImageCreativeTest testCreate]' started.
+Test Case '-[XAStrategyImageCreativeTest testCreate]' passed (0.001 seconds).
+Test Case '-[XAStrategyImageCreativeTest testCreateWithNillableParameters]' started.
+Test Case '-[XAStrategyImageCreativeTest testCreateWithNillableParameters]' passed (0.000 seconds).
+Test Case '-[XAStrategyImageCreativeTest testLoadBadImage]' started.
+Test Case '-[XAStrategyImageCreativeTest testLoadBadImage]' passed (0.006 seconds).
+Test Case '-[XAStrategyImageCreativeTest testLoadImage]' started.
+Test Case '-[XAStrategyImageCreativeTest testLoadImage]' passed (0.038 seconds).
+Test Case '-[XAStrategyImageCreativeTest testPresentFromViewController]' started.
+Test Case '-[XAStrategyImageCreativeTest testPresentFromViewController]' passed (0.004 seconds).
+Test Suite 'XAStrategyImageCreativeTest' passed at 2016-02-23 13:25:48.228.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.098 (0.100) seconds
+Test Suite 'XAStrategyRequirementsTest' started at 2016-02-23 13:25:48.229
+Test Case '-[XAStrategyRequirementsTest testArchiveAndUnArchive]' started.
+Test Case '-[XAStrategyRequirementsTest testArchiveAndUnArchive]' passed (0.003 seconds).
+Test Case '-[XAStrategyRequirementsTest testCreate]' started.
+Test Case '-[XAStrategyRequirementsTest testCreate]' passed (0.001 seconds).
+Test Case '-[XAStrategyRequirementsTest testDefaultCreate]' started.
+Test Case '-[XAStrategyRequirementsTest testDefaultCreate]' passed (0.000 seconds).
+Test Case '-[XAStrategyRequirementsTest testForegroundOnlyRequirement]' started.
+Test Case '-[XAStrategyRequirementsTest testForegroundOnlyRequirement]' passed (0.001 seconds).
+Test Case '-[XAStrategyRequirementsTest testMultipleRequirements]' started.
+2016-02-23 13:25:48.235 xctest[16943:3897727] The following requirements were not met: [Method has only been called 0/2][Only 0.000018 of required 4.000000 has elapsed]
+2016-02-23 13:25:48.235 xctest[16943:3897727] The following requirements were not met: [Only 0.000136 of required 4.000000 has elapsed]
+Test Case '-[XAStrategyRequirementsTest testMultipleRequirements]' passed (0.001 seconds).
+Test Case '-[XAStrategyRequirementsTest testNumberofMethodCallsRequirement]' started.
+Test Case '-[XAStrategyRequirementsTest testNumberofMethodCallsRequirement]' passed (0.000 seconds).
+Test Case '-[XAStrategyRequirementsTest testTimeExpiredRequirement]' started.
+Test Case '-[XAStrategyRequirementsTest testTimeExpiredRequirement]' passed (0.000 seconds).
+Test Case '-[XAStrategyRequirementsTest testWifiOnlyRequirement]' started.
+Test Case '-[XAStrategyRequirementsTest testWifiOnlyRequirement]' passed (0.001 seconds).
+Test Suite 'XAStrategyRequirementsTest' passed at 2016-02-23 13:25:48.239.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.007 (0.010) seconds
+Test Suite 'XAStrategyTextCreativeTest' started at 2016-02-23 13:25:48.239
+Test Case '-[XAStrategyTextCreativeTest testArchiveAndUnarchive]' started.
+Test Case '-[XAStrategyTextCreativeTest testArchiveAndUnarchive]' passed (0.001 seconds).
+Test Case '-[XAStrategyTextCreativeTest testCreateTextCreative]' started.
+Test Case '-[XAStrategyTextCreativeTest testCreateTextCreative]' passed (0.000 seconds).
+Test Suite 'XAStrategyTextCreativeTest' passed at 2016-02-23 13:25:48.242.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'XAUserDataTest' started at 2016-02-23 13:25:48.242
+Test Case '-[XAUserDataTest testCopyUserData]' started.
+Test Case '-[XAUserDataTest testCopyUserData]' passed (0.000 seconds).
+Test Case '-[XAUserDataTest testSetBirthdayWithMonthDayYear]' started.
+Test Case '-[XAUserDataTest testSetBirthdayWithMonthDayYear]' passed (0.001 seconds).
+Test Case '-[XAUserDataTest testUserDataAddKeyword]' started.
+Test Case '-[XAUserDataTest testUserDataAddKeyword]' passed (0.000 seconds).
+Test Suite 'XAUserDataTest' passed at 2016-02-23 13:25:48.244.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'XKInAppBrowserViewControllerTest' started at 2016-02-23 13:25:48.245
+Test Case '-[XKInAppBrowserViewControllerTest testJsonStringFromDictionary]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testJsonStringFromDictionary]' passed (0.000 seconds).
+Test Case '-[XKInAppBrowserViewControllerTest testJsonStringFromDictionaryNil]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testJsonStringFromDictionaryNil]' passed (0.000 seconds).
+Test Case '-[XKInAppBrowserViewControllerTest testOpenURLNativelyWithCustomScheme]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testOpenURLNativelyWithCustomScheme]' passed (0.010 seconds).
+Test Case '-[XKInAppBrowserViewControllerTest testSendForegroundEventToWebViewWithoutArgs]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testSendForegroundEventToWebViewWithoutArgs]' passed (0.001 seconds).
+Test Case '-[XKInAppBrowserViewControllerTest testSendMetaDataEventToWebViewWithArgs]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testSendMetaDataEventToWebViewWithArgs]' passed (0.001 seconds).
+Test Case '-[XKInAppBrowserViewControllerTest testSendMetaDataEventToWebViewWithoutArgs]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testSendMetaDataEventToWebViewWithoutArgs]' passed (0.001 seconds).
+Test Case '-[XKInAppBrowserViewControllerTest testViewDidLoad]' started.
+Test Case '-[XKInAppBrowserViewControllerTest testViewDidLoad]' passed (0.000 seconds).
+Test Suite 'XKInAppBrowserViewControllerTest' passed at 2016-02-23 13:25:48.262.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.014 (0.017) seconds
+Test Suite 'XKInterstitialViewControllerTest' started at 2016-02-23 13:25:48.263
+Test Case '-[XKInterstitialViewControllerTest testCreateInstance]' started.
+Test Case '-[XKInterstitialViewControllerTest testCreateInstance]' passed (0.000 seconds).
+Test Suite 'XKInterstitialViewControllerTest' passed at 2016-02-23 13:25:48.263.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'XMReflectionUtilTest' started at 2016-02-23 13:25:48.264
+Test Case '-[XMReflectionUtilTest testDoubleValue]' started.
+Test Case '-[XMReflectionUtilTest testDoubleValue]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testFalseFromTrueToFalse]' started.
+Test Case '-[XMReflectionUtilTest testFalseFromTrueToFalse]' passed (0.001 seconds).
+Test Case '-[XMReflectionUtilTest testFalseFromTRUEToFalse]' started.
+Test Case '-[XMReflectionUtilTest testFalseFromTRUEToFalse]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testFloatValue]' started.
+Test Case '-[XMReflectionUtilTest testFloatValue]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testIntegerValue]' started.
+Test Case '-[XMReflectionUtilTest testIntegerValue]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testOneFalseToTruethy]' started.
+Test Case '-[XMReflectionUtilTest testOneFalseToTruethy]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testOneFALSEToTruethy]' started.
+Test Case '-[XMReflectionUtilTest testOneFALSEToTruethy]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testOneNOToTruethy]' started.
+Test Case '-[XMReflectionUtilTest testOneNOToTruethy]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testStringValue]' started.
+Test Case '-[XMReflectionUtilTest testStringValue]' passed (0.000 seconds).
+Test Case '-[XMReflectionUtilTest testZeroFromYESToFalsey]' started.
+Test Case '-[XMReflectionUtilTest testZeroFromYESToFalsey]' passed (0.001 seconds).
+Test Suite 'XMReflectionUtilTest' passed at 2016-02-23 13:25:48.271.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.004 (0.007) seconds
+Test Suite 'XMSimpleRestClientTest' started at 2016-02-23 13:25:48.271
+Test Case '-[XMSimpleRestClientTest testLoadAndCancel]' started.
+2016-02-23 13:25:48.275 xctest[16943:3897727] error The operation couldn’t be completed. (NSURLErrorDomain error -999.)
+Test Case '-[XMSimpleRestClientTest testLoadAndCancel]' passed (0.004 seconds).
+Test Case '-[XMSimpleRestClientTest testMultipleClients]' started.
+Test Case '-[XMSimpleRestClientTest testMultipleClients]' passed (0.119 seconds).
+Test Case '-[XMSimpleRestClientTest testSimpleLoad]' started.
+Test Case '-[XMSimpleRestClientTest testSimpleLoad]' passed (0.025 seconds).
+Test Suite 'XMSimpleRestClientTest' passed at 2016-02-23 13:25:48.421.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.148 (0.149) seconds
+Test Suite 'XMXVROSPRecognizerProxyTest' started at 2016-02-23 13:25:48.421
+Test Case '-[XMXVROSPRecognizerProxyTest testCreateInstance]' started.
+Test Case '-[XMXVROSPRecognizerProxyTest testCreateInstance]' passed (0.000 seconds).
+Test Case '-[XMXVROSPRecognizerProxyTest testStartListeningThenNilInstance]' started.
+Test Case '-[XMXVROSPRecognizerProxyTest testStartListeningThenNilInstance]' passed (0.000 seconds).
+Test Suite 'XMXVROSPRecognizerProxyTest' passed at 2016-02-23 13:25:48.423.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'Unit Tests.xctest' failed at 2016-02-23 13:25:48.424.
+	 Executed 190 tests, with 2 failures (0 unexpected) in 5.426 (5.516) seconds
+Test Suite 'All tests' failed at 2016-02-23 13:25:48.424.
+	 Executed 190 tests, with 2 failures (0 unexpected) in 5.426 (5.520) seconds
+13:25:49.481 xctest[16944:3897827] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+13:25:49.485 xctest[16944:3897827] _IDE_startExecutingTestPlanWithProtocolVersion:16
+Test Suite 'All tests' started at 2016-02-23 13:25:49.532
+Test Suite 'Performance Tests.xctest' started at 2016-02-23 13:25:49.534
+Test Suite 'XAAdAudio_Performance_Tests' started at 2016-02-23 13:25:49.534
+Test Case '-[XAAdAudio_Performance_Tests testLoadRemoteAudioPerformance]' started.
+<unknown>:0: Test Case '-[XAAdAudio_Performance_Tests testLoadRemoteAudioPerformance]' measured [Time, seconds] average: 0.127, relative standard deviation: 96.229%, values: [0.228488, 0.092215, 0.075750, 0.461353, 0.055522, 0.078880, 0.053270, 0.116044, 0.054408, 0.054444], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAAdAudio_Performance_Tests testLoadRemoteAudioPerformance]' passed (1.646 seconds).
+Test Case '-[XAAdAudio_Performance_Tests testLoadRemoteMultipleAudioPerformance]' started.
+<unknown>:0: Test Case '-[XAAdAudio_Performance_Tests testLoadRemoteMultipleAudioPerformance]' measured [Time, seconds] average: 0.256, relative standard deviation: 58.039%, values: [0.625415, 0.112267, 0.343849, 0.137130, 0.144058, 0.315529, 0.252205, 0.279760, 0.249752, 0.098447], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAAdAudio_Performance_Tests testLoadRemoteMultipleAudioPerformance]' passed (2.823 seconds).
+Test Case '-[XAAdAudio_Performance_Tests testStartPlayLoadedFilePerformance]' started.
+<unknown>:0: Test Case '-[XAAdAudio_Performance_Tests testStartPlayLoadedFilePerformance]' measured [Time, seconds] average: 0.231, relative standard deviation: 42.710%, values: [0.288312, 0.077922, 0.081817, 0.102415, 0.310742, 0.307851, 0.308603, 0.306120, 0.207235, 0.314356], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAAdAudio_Performance_Tests testStartPlayLoadedFilePerformance]' passed (2.975 seconds).
+Test Suite 'XAAdAudio_Performance_Tests' passed at 2016-02-23 13:25:56.980.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 7.444 (7.446) seconds
+Test Suite 'XAResourceStrategy_Performance_Test' started at 2016-02-23 13:25:56.981
+Test Case '-[XAResourceStrategy_Performance_Test testBareBonesResourceStrategyPerformance]' started.
+<unknown>:0: Test Case '-[XAResourceStrategy_Performance_Test testBareBonesResourceStrategyPerformance]' measured [Time, seconds] average: 0.040, relative standard deviation: 14.728%, values: [0.039640, 0.040006, 0.054850, 0.041664, 0.037970, 0.036815, 0.045758, 0.033284, 0.038368, 0.034207], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAResourceStrategy_Performance_Test testBareBonesResourceStrategyPerformance]' passed (0.662 seconds).
+Test Case '-[XAResourceStrategy_Performance_Test testBareBonesResourceStrategyPerformanceAdWithExpansion]' started.
+<unknown>:0: Test Case '-[XAResourceStrategy_Performance_Test testBareBonesResourceStrategyPerformanceAdWithExpansion]' measured [Time, seconds] average: 0.039, relative standard deviation: 8.219%, values: [0.039130, 0.038035, 0.035393, 0.043509, 0.033570, 0.036663, 0.037525, 0.044493, 0.039382, 0.039579], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAResourceStrategy_Performance_Test testBareBonesResourceStrategyPerformanceAdWithExpansion]' passed (0.647 seconds).
+Test Case '-[XAResourceStrategy_Performance_Test testConservativeResourceStrategyPerformance]' started.
+<unknown>:0: Test Case '-[XAResourceStrategy_Performance_Test testConservativeResourceStrategyPerformance]' measured [Time, seconds] average: 0.091, relative standard deviation: 47.845%, values: [0.204805, 0.086068, 0.074757, 0.103137, 0.057968, 0.069597, 0.126934, 0.063293, 0.057687, 0.063478], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAResourceStrategy_Performance_Test testConservativeResourceStrategyPerformance]' passed (1.173 seconds).
+Test Case '-[XAResourceStrategy_Performance_Test testConservativeResourceStrategyPerformanceAdWithExpansion]' started.
+<unknown>:0: Test Case '-[XAResourceStrategy_Performance_Test testConservativeResourceStrategyPerformanceAdWithExpansion]' measured [Time, seconds] average: 0.113, relative standard deviation: 54.259%, values: [0.085283, 0.250797, 0.214658, 0.097827, 0.086755, 0.073977, 0.081474, 0.083458, 0.087038, 0.065194], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAResourceStrategy_Performance_Test testConservativeResourceStrategyPerformanceAdWithExpansion]' passed (1.390 seconds).
+Test Case '-[XAResourceStrategy_Performance_Test testMidrollResourceStrategyPerformance]' started.
+<unknown>:0: Test Case '-[XAResourceStrategy_Performance_Test testMidrollResourceStrategyPerformance]' measured [Time, seconds] average: 0.051, relative standard deviation: 13.680%, values: [0.047512, 0.061052, 0.042965, 0.046670, 0.041035, 0.049491, 0.063433, 0.052714, 0.054144, 0.047080], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[XAResourceStrategy_Performance_Test testMidrollResourceStrategyPerformance]' passed (0.769 seconds).
+Test Suite 'XAResourceStrategy_Performance_Test' passed at 2016-02-23 13:26:01.623.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 4.640 (4.642) seconds
+Test Suite 'Performance Tests.xctest' passed at 2016-02-23 13:26:01.624.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 12.084 (12.090) seconds
+Test Suite 'All tests' passed at 2016-02-23 13:26:01.624.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 12.084 (12.092) seconds
+13:26:02.542 xctest[16946:3898227] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+13:26:02.545 xctest[16946:3898222] _IDE_startExecutingTestPlanWithProtocolVersion:16
+Test Suite 'Selected tests' started at 2016-02-23 13:26:02.592
+Test Suite 'Functional Tests.xctest' started at 2016-02-23 13:26:02.594
+Test Suite 'XAAbstractResourceStrategy_Functional_Test' started at 2016-02-23 13:26:02.594
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddNilPrimaryResource]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddNilPrimaryResource]' passed (0.005 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddNilSecondaryResource]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddNilSecondaryResource]' passed (0.001 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddPrimaryResource]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddPrimaryResource]' passed (0.001 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddSecondaryResource]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testAddSecondaryResource]' passed (0.001 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testCancelLoad]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testCancelLoad]' passed (0.013 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testCancelLoadWithBlock]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testCancelLoadWithBlock]' passed (0.006 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testInitException]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testInitException]' passed (0.001 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadBadPrimaryResource]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadBadPrimaryResource]' passed (0.022 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadNilResource]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadNilResource]' passed (0.001 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadPrimaryResources]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadPrimaryResources]' passed (0.185 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadPrimaryWithImageAlreadyLoaded]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadPrimaryWithImageAlreadyLoaded]' passed (0.011 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadPrimaryWithoutResources]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadPrimaryWithoutResources]' passed (0.001 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadSecondaryResources]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testLoadSecondaryResources]' passed (0.165 seconds).
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testOnResourcesLoaded]' started.
+Test Case '-[XAAbstractResourceStrategy_Functional_Test testOnResourcesLoaded]' passed (0.079 seconds).
+Test Suite 'XAAbstractResourceStrategy_Functional_Test' passed at 2016-02-23 13:26:03.093.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.492 (0.499) seconds
+Test Suite 'XAAdAudio_Functional_Tests' started at 2016-02-23 13:26:03.094
+Test Case '-[XAAdAudio_Functional_Tests testCancelGoodAudioLoad]' started.
+Test Case '-[XAAdAudio_Functional_Tests testCancelGoodAudioLoad]' passed (0.005 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testCopyLoadedAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testCopyLoadedAudio]' passed (2.440 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testCopyUnLoadedAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testCopyUnLoadedAudio]' passed (2.310 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testCreateAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testCreateAudio]' passed (0.001 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testCreateAudioWithAVAudioPlayer]' started.
+Test Case '-[XAAdAudio_Functional_Tests testCreateAudioWithAVAudioPlayer]' passed (2.261 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testLoadAudioCreatedWithAVAudioPlayer]' started.
+Test Case '-[XAAdAudio_Functional_Tests testLoadAudioCreatedWithAVAudioPlayer]' passed (0.001 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testLoadAudioLocally]' started.
+Test Case '-[XAAdAudio_Functional_Tests testLoadAudioLocally]' passed (0.047 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testLoadBadAdAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testLoadBadAdAudio]' passed (0.006 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testLoadGoodAdAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testLoadGoodAdAudio]' passed (0.076 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testLoadImageAndTryToPlayAsAudio]' started.
+[xappads][2016-02-23T18:26:10.299Z][WARN ][XAAdAudio          ][Line 114] Audio doesn't exist for Demo-AlphaCard.png when it was attempted to prepare.
+Test Case '-[XAAdAudio_Functional_Tests testLoadImageAndTryToPlayAsAudio]' passed (0.055 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayAndStopAdAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayAndStopAdAudio]' passed (0.382 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayAudioBeforePrepare]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayAudioBeforePrepare]' passed (0.382 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayGoodAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayGoodAudio]' passed (17.205 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayGoodAudioWithPauseAndResume]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayGoodAudioWithPauseAndResume]' passed (19.445 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayPauseAndResumeAdAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayPauseAndResumeAdAudio]' passed (2.414 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayRepeatingAndStopBusyCue]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayRepeatingAndStopBusyCue]' passed (0.040 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayResetAdAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayResetAdAudio]' passed (0.318 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testPlayUnloadedAudioCompletionBlock]' started.
+Test Case '-[XAAdAudio_Functional_Tests testPlayUnloadedAudioCompletionBlock]' passed (0.001 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testStallGoodAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testStallGoodAudio]' passed (9.158 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testThresholdAudioNilCompletionBlock]' started.
+Test Case '-[XAAdAudio_Functional_Tests testThresholdAudioNilCompletionBlock]' passed (5.351 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testThresholdGoodAudio]' started.
+Test Case '-[XAAdAudio_Functional_Tests testThresholdGoodAudio]' passed (5.351 seconds).
+Test Case '-[XAAdAudio_Functional_Tests testThresholdGoodAudioNilCompletionBlockOutOfBoundsValue]' started.
+Test Case '-[XAAdAudio_Functional_Tests testThresholdGoodAudioNilCompletionBlockOutOfBoundsValue]' passed (2.298 seconds).
+Test Suite 'XAAdAudio_Functional_Tests' passed at 2016-02-23 13:27:12.655.
+	 Executed 22 tests, with 0 failures (0 unexpected) in 69.549 (69.561) seconds
+Test Suite 'XAAdvertisement_Functional_Test' started at 2016-02-23 13:27:12.656
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementConservativeLoad]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementConservativeLoad]' passed (0.323 seconds).
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementConservativeLoadThenCancel]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementConservativeLoadThenCancel]' passed (0.006 seconds).
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementThenCancel]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementThenCancel]' passed (0.002 seconds).
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementThenCancelWithBlock]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementThenCancelWithBlock]' passed (0.002 seconds).
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementWithoutCues]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementWithoutCues]' passed (0.179 seconds).
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementWithoutLazyLoad]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementWithoutLazyLoad]' passed (0.089 seconds).
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementWithoutLazyLoadThenCancel]' started.
+Test Case '-[XAAdvertisement_Functional_Test testLoadAdvertisementWithoutLazyLoadThenCancel]' passed (0.005 seconds).
+Test Suite 'XAAdvertisement_Functional_Test' passed at 2016-02-23 13:27:13.267.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.607 (0.611) seconds
+Test Suite 'XABareBonesResourceStrategy_Functional_Test' started at 2016-02-23 13:27:13.267
+Test Case '-[XABareBonesResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionAndGoToAction]' started.
+Test Case '-[XABareBonesResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionAndGoToAction]' passed (0.066 seconds).
+Test Case '-[XABareBonesResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionAndGoToActionWithoutLazyLoad]' started.
+Test Case '-[XABareBonesResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionAndGoToActionWithoutLazyLoad]' passed (0.183 seconds).
+Test Suite 'XABareBonesResourceStrategy_Functional_Test' passed at 2016-02-23 13:27:13.518.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.249 (0.250) seconds
+Test Suite 'XAConservativeResourceStrategy_Functional_Test' started at 2016-02-23 13:27:13.519
+Test Case '-[XAConservativeResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionAndAction]' started.
+Test Case '-[XAConservativeResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionAndAction]' passed (0.262 seconds).
+Test Suite 'XAConservativeResourceStrategy_Functional_Test' passed at 2016-02-23 13:27:13.782.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.262 (0.263) seconds
+Test Suite 'XAMidRollResourceStrategy_Functional_Test' started at 2016-02-23 13:27:13.782
+Test Case '-[XAMidRollResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionandGoToAction]' started.
+<unknown>:0: error: -[XAMidRollResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionandGoToAction] : Asynchronous wait failed: Exceeded timeout of 5 seconds, with unfulfilled expectations: "Resources Loaded expectation".
+Test Case '-[XAMidRollResourceStrategy_Functional_Test testLoadAdvertisementWithExpansionandGoToAction]' failed (5.021 seconds).
+Test Suite 'XAMidRollResourceStrategy_Functional_Test' failed at 2016-02-23 13:27:18.804.
+	 Executed 1 test, with 1 failure (0 unexpected) in 5.021 (5.022) seconds
+Test Suite 'Functional Tests.xctest' failed at 2016-02-23 13:27:18.805.
+	 Executed 47 tests, with 1 failure (0 unexpected) in 76.181 (76.211) seconds
+Test Suite 'Selected tests' failed at 2016-02-23 13:27:18.805.
+	 Executed 47 tests, with 1 failure (0 unexpected) in 76.181 (76.213) seconds
