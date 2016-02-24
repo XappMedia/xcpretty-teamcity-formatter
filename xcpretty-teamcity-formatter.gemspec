@@ -4,18 +4,18 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "xcpretty-teamcity-formatter"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Michael Myers"]
   spec.email         = ["mmm@xappmedia.com"]
 
   spec.summary       = %q{TeamCity formatter for xcpretty.}
-  spec.description   = %q{TeamCity formatter for xcpretty.}
+  spec.description   = %q{Report build status and test results from xcodebuild directly to TeamCity with xcpretty and the xcpretty-teamcity-formatter.}
   spec.homepage      = "https://github.com/XappMedia/xcpretty-teamcity-formatter.git"
   spec.license       = "MIT"
 
   spec.files         = [
       "README.md",
-      "LICENSE",
+      "LICENSE.txt",
       "lib/teamcity_formatter.rb",
       "bin/xcpretty-teamcity-formatter"]
   spec.executables   = ["xcpretty-teamcity-formatter"]
