@@ -1,16 +1,38 @@
 
 class TeamCityFormatter < XCPretty::Simple
 
+  # Used when opening a test target
+  # For example: Test Suite 'Unit Tests.xctest' started at ...
   def format_test_run_started(name)
     "##teamcity[testSuiteStarted name='#{name}']"
   end
 
+  # Used to signal a test target is complete
   def format_test_run_finished(name, time)
-    "##teamcity[testFinished name='#{name}']"
+
+    if @previousSuite != nil
+      # Close the last test suite before the target is complete
+      testSuiteFinished(@previousSuite)
+      @previousSuite = nil
+    end
+
+    "##teamcity[testSuiteFinished name='#{name}']"
   end
 
   def format_test_suite_started(name)
+    #Skip the All tests, which comes first
+    return "" if name == 'All tests'
+
+    if @previousSuite != nil
+       testSuiteFinished(@previousSuite)
+    end
+
+    @previousSuite = name
     "##teamcity[testSuiteStarted name='#{name}']"
+  end
+
+  def testSuiteFinished(name)
+    puts "##teamcity[testSuiteFinished name='#{@previousSuite}']"
   end
 
   def format_passing_test(suite, test, time)
