@@ -59,15 +59,15 @@ class TeamCityFormatter < XCPretty::Simple
   end
 
   def format_compile(file_name, file_path)
-    "##teamcity[progressMessage 'Compiling #{file_name}'"
+    "##teamcity[progressMessage 'Compiling #{file_name}']"
   end
 
   def format_touch(file_path, file_name)
-    "##teamcity[progressMessage 'Touching #{file_name}'"
+    "##teamcity[progressMessage 'Touching #{file_name}']"
   end
 
   def format_phase_success(phase_name)
-    "##teamcity[progressMessage '#{phase_name} Success'"
+    "##teamcity[progressMessage '#{phase_name} Success']"
   end
 
 end
