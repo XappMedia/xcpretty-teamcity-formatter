@@ -23,7 +23,7 @@ Or install it yourself as:
 ```
 #!/bin/bash
 
-xcodebuild [flags] | xcpretty -f `xcpretty-travis-formatter`
+xcodebuild [flags] | xcpretty -f `xcpretty-teamcity-formatter`
 ```
 
 ## Development
@@ -34,7 +34,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/xcpretty-teamcity-formatter. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/xappmedia/xcpretty-teamcity-formatter. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
 
 ## License
 
